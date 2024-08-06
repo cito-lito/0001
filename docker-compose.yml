@@ -6,4 +6,4 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - FIREWORKS_API_KEY=SsVNZ3s5uymkBZHGbdifA1Nd7fK4uJfSeE5HkRaavnFr6J6J
+      - FIREWORKS_API_KEY=apiKey
