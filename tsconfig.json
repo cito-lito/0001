@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "baseUrl": "src",
+        "outDir": "dist",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist", "docs", "**/tests/**/*"],
+
+    "typedocOptions": {
+        "entryPoints": ["src/**/*"],
+        "out": "docs",
+        "includeVersion": true,
+        "exclude": ["**/tests/**/*"],
+        "entryPointStrategy": "expand"
+    }
+}
